@@ -1,0 +1,74 @@
+[
+  {
+    "coords": {
+      "lat": 1.286920,
+      "lng": 103.854570
+    },
+    "name": "Merlion",
+    "description": "The Merlion is the national personification of Singapore."
+  },
+  {
+    "coords": {
+      "lat": 1.287466,
+      "lng": 103.851424
+    },
+    "name": "Asian Civilisations Museum",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.290555,
+      "lng": 103.846188
+    },
+    "name": "Clarke Quay",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.295526,
+      "lng": 103.845331
+    },
+    "name": "Fort Canning Park",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.302279,
+      "lng": 103.837399
+    },
+    "name": "Orchard Road",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.289332,
+      "lng": 103.863152
+    },
+    "name": "Singapore Flyer",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.283099,
+      "lng": 103.860295
+    },
+    "name": "Marina Bay Sands",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.281790,
+      "lng": 103.863954
+    },
+    "name": "Gardens By The Bay",
+    "description": ""
+  },
+  {
+    "coords": {
+      "lat": 1.284193,
+      "lng": 103.843362
+    },
+    "name": "Chinatown",
+    "description": ""
+  }
+]
