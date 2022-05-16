@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+@font-face {
+  font-family: "Myriadpro";
+  src: url(/assets/font/MYRIADPRO-REGULAR.woff) format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriadpro";
+  src: url(/assets/font/MYRIADPRO-SEMIBOLD.woff) format("truetype");
+  font-weight: bolder;
+}
+
+/* start reset */
 *,
 *::before,
 *::after {
@@ -6,16 +21,7 @@
 
 * {
   margin: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  padding: 0;
 }
 
 img,
@@ -48,7 +54,7 @@ h6 {
   isolation: isolate;
 }
 
-/* end */
+/* end reset*/
 
 .layout-header {
   display: flex;
@@ -59,8 +65,14 @@ h6 {
   background-color: #f4f7fa;
 }
 
+.fa-solid {
+  color: #647d80;
+}
+
 .header-title {
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
 
 .header-menu {
@@ -73,29 +85,84 @@ h6 {
   padding-left: 1rem;
 }
 
+.layout-sidebar-container {
+  height: 100%;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.layout-sidebar-items {
+  display: grid;
+}
+
 .layout-sidebar-items {
   text-align: center;
   width: 100%;
+  padding: 16px;
+}
+
+.layout-sidebar-items-icon {
+  width: 30px;
+}
+
+.layout-sidebar-menu-stacked {
+  position: absolute;
+  left: 110px;
+  height: 100%;
+  background-color: #282c37;
+  z-index: 1;
+  width: 250px;
+}
+
+.layout-sidebar-items-stacked {
+  color: white;
+}
+
+.layout-sidebar-items-title {
+  color: #9b9b9e;
 }
 
 .side {
+  display: none;
+}
+
+.side.active {
+  display: initial;
   position: absolute;
   right: 0;
-  top: 75px;
-  width: 200px;
+  top: 100px;
+  width: 250px;
   bottom: 0;
 }
 
 .side-title {
   background-color: #72cdd2;
-  padding: 16px;
+  padding: 10px 16px;
+  font-size: 20px;
   color: white;
+  font-family: "Myriadpro", sans-serif;
 }
 
-.side-desc {
+.side-desc-container {
   background-color: #313541;
   padding: 16px;
   color: #9b9b9e;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.layout-sidebar-stacked {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 #map {
@@ -113,11 +180,11 @@ body {
   width: 100%;
   height: 100vh;
   grid-template-areas:
-    "nav head"
-    "nav main"
-    "nav main";
+    "nav sub head"
+    "nav sub main"
+    "nav sub main";
   grid-template-rows: 100px 1fr;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 110px 250px 1fr;
 }
 
 .page > header {
@@ -131,4 +198,41 @@ body {
 
 .page > main {
   grid-area: main;
+}
+
+.markerLabel {
+  background-color: #313541;
+  position: absolute;
+  top: 18px;
+  padding: 10px;
+  font-family: "Myriadpro", sans-serif;
+  font-weight: 500;
+
+  /* mask: radial-gradient(
+        var(--r1, 100%) var(--r2, 95%) at right,
+        white 79.5%,
+        transparent 80%
+      )
+      top left,
+    radial-gradient(
+        var(--r1, 100%) var(--r2, 95%) at left,
+        transparent 79.5%,
+        white 80%
+      )
+      top center,
+    radial-gradient(
+        var(--r1, 100%) var(--r2, 9%) at right,
+        white 79.5%,
+        transparent 80%
+      )
+      top right; */
+}
+
+.markerLabelClick {
+  background-color: #92d72e;
+  position: absolute;
+  top: -25px;
+  padding: 10px;
+  height: 87px;
+  font-family: "Myriadpro", sans-serif;
 }

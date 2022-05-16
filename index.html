@@ -16,9 +16,9 @@
     <section id="page" class="page">
       <header>
         <div class="layout-header">
-          <h3 class="header-title">
+          <h4 class="header-title">
             Top-Rated Tourist Attractions In Singapore
-          </h3>
+          </h4>
           <ul class="header-menu">
             <li>
               <a href="#"><i class="fa-solid fa-gear fa-lg"></i></a>
@@ -27,7 +27,9 @@
               <a href="#"><i class="fa-solid fa-circle-question fa-lg"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-circle-xmark fa-lg"></i></a>
+              <a href="#" onclick="removeSide()"
+                ><i class="fa-solid fa-circle-xmark fa-lg"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -63,7 +65,7 @@
                     src="img/Video.png"
                     alt="video"
                   />
-                  <p class="layout-sidebar-items-title">Video</p>
+                  <p class="layout-sidebar-items-title">Videos</p>
                 </a>
               </div>
               <div class="layout-sidebar-items">
@@ -90,69 +92,77 @@
           </div>
         </div>
       </nav>
+
+      <div class="layout-sidebar-menu-stacked">
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="filter">Filter by favorite</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Merlion</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Marina Bay Sands</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Garden by the Bay</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">China town</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">
+              Asian Civilisations Museum
+            </p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Clarke Quay</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Fort Canning Park</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Singapore Flyer</p>
+          </a>
+        </div>
+        <div class="layout-sidebar-stacked">
+          <a href="#" class="layout-sidebar-stacked-link">
+            <p class="layout-sidebar-items-stacked">Orchard Road</p>
+          </a>
+        </div>
+      </div>
+
       <main>
         <div id="map"></div>
       </main>
       <aside>
-        <div class="side">
-          <img src="" alt="" />
-          <h5 id="side-title" class="side-title"></h5>
-          <p id="side-desc" class="side-desc"></p>
+        <div id="side" class="side">
+          <img id="side-image" />
+          <p id="side-title" class="side-title"></p>
+          <div class="side-desc-container">
+            <p id="side-desc-head" class="side-desc-head"></p>
+            <br />
+            <p id="side-desc" class="side-desc"></p>
+          </div>
         </div>
       </aside>
     </section>
-
-    <!-- <nav>
-        <div class="layout-navbar">
-            <h1 class="nav-title">Top-Rated Tourist Attractions In Singapore</h1>
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <aside>
-        <div class="layout-sidebar">
-            <div class="layout-sidebar-container">
-                <div class="layout-sidebar-menu">
-                    <div class="layout-sidebar-items">
-                        <a href="index.html" class="layout-sidebar-items-link">
-                            <img class="layout-sidebar-items-icon" src="img/Browse.png" alt="browse" />
-                            <p class="layout-sidebar-items-title">Browse</p>
-                        </a>
-                    </div>
-                    <div class="layout-sidebar-items">
-                        <a href="#" class="layout-sidebar-items-link">
-                            <img class="layout-sidebar-items-icon" src="img/Attraction.png" alt="attraction" />
-                            <p class="layout-sidebar-items-title">Suggest Attraction</p>
-                        </a>
-                    </div>
-                    <div class="layout-sidebar-items">
-                        <a href="#" class="layout-sidebar-items-link">
-                            <img class="layout-sidebar-items-icon" src="img/Video.png" alt="video" />
-                            <p class="layout-sidebar-items-title">Video</p>
-                        </a>
-                    </div>
-                    <div class="layout-sidebar-items">
-                        <a href="#" class="layout-sidebar-items-link">
-                            <img class="layout-sidebar-items-icon" src="img/Blog.png" alt="blog" />
-                            <p class="layout-sidebar-items-title">Blog</p>
-                        </a>
-                    </div>
-                    <div class="layout-sidebar-items">
-                        <a href="#" class="layout-sidebar-items-link">
-                            <img class="layout-sidebar-items-icon" src="img/About.png" alt="about" />
-                            <p class="layout-sidebar-items-title">About</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <div id="map"></div> -->
 
     <script src="js/script.js"></script>
     <script

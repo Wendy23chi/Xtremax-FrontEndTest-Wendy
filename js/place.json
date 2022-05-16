@@ -3,54 +3,72 @@
     "latitude": 1.286920,
     "longitude": 103.854570,
     "name": "Merlion",
-    "description": "The Merlion is the national personification of Singapore. Its name combines \"mer\", meaning the sea, and \"lion\". The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means \"sea town\" in Javanese. The lion head represents Singapore's original name—Singapura—meaning \"lion city\" or \"kota singa\"."
+    "image": "img/merlion.jpg",
+    "header": "The Merlion is the national personification of Singapore.",
+    "description": "Its name combines \"mer\", meaning the sea, and \"lion\". The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means \"sea town\" in Javanese. The lion head represents Singapore's original name—Singapura—meaning \"lion city\" or \"kota singa\"."
   },
   {
     "latitude": 1.287466,
     "longitude": 103.851424,
     "name": "Asian Civilisations Museum",
-    "description": "The Asian Civilisations Museum (ACM) is an institution which forms a part of the four museums in Singapore, the other three being the Peranakan Museum at Old Tao Nan School, the National Museum of Singapore and the Singapore Art Museum."
+    "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000808570217/Asian%2520Civilisations%2520Museum%2520Tickets-31ffbc64-154b-4b59-a4d1-0c6a2c4a1185.jpeg?_src=imagekit&tr=c-at_max,h-512,q-60,w-720",
+    "header": "Asian Civilisations Museum is an institution which forms a part of the four museums in Singapore",
+    "description": "The other three being the Peranakan Museum at Old Tao Nan School, the National Museum of Singapore and the Singapore Art Museum."
   },
   {
     "latitude": 1.290555,
     "longitude": 103.846188,
     "name": "Clarke Quay",
-    "description": "The Clarke Quay is a historical riverside quay in Singapore, located within the Singapore River Planning Area. The quay is situated upstream from the mouth of the Singapore River and Boat Quay."
+    "image": "https://www.visitsingapore.com/id_id/walking-tour/eat-drink/drinking-clarke-quay-boat-quay/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
+    "header": "Clarke Quay is a historical riverside quay in Singapore.",
+    "description": "Located within the Singapore River Planning Area. The quay is situated upstream from the mouth of the Singapore River and Boat Quay."
   },
   {
     "latitude": 1.295526,
     "longitude": 103.845331,
     "name": "Fort Canning Park",
-    "description": "The Fort Canning Hill is a small hill, about 48 metres (157 ft) high, in the southeast portion of the island city-state of Singapore, within the Central Area that forms Singapore's central business district"
+    "image": "https://www.befreetour.com/img/attraction/fort-canning-park20191009125038.jpg",
+    "header": "Fort Canning Park is a small hill.",
+    "description": "In the southeast portion of the island city-state of Singapore, within the Central Area that forms Singapore's central business district"
   },
   {
     "latitude": 1.302279,
     "longitude": 103.837399,
     "name": "Orchard Road",
-    "description": "The Orchard Road is a major 2.5 km (1.6 mi) long road in the Central Area of Singapore. A famous tourist attraction, it is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity"
+    "image": "https://www.visitsingapore.com/id_id/see-do-singapore/places-to-see/orchard/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
+    "header": "Orchard Road is a major long road in the Central Area of Singapore.",
+    "description": "A famous tourist attraction, it is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity"
   },
   {
     "latitude": 1.289332,
     "longitude": 103.863152,
     "name": "Singapore Flyer",
-    "description": "The Singapore Flyer is an observation wheel at the Downtown Core district of Singapore. Officially opened on 15 April 2008, it has 28 air-conditioned capsules, each able to accommodate 28 passengers, and incorporates a three-story terminal building."
+    "image": "https://www.visitsingapore.com/id_id/see-do-singapore/recreation-leisure/viewpoints/singapore-flyer/_jcr_content/par-carousel/carousel_detailpage/carousel/item2.thumbnail.carousel-img.740.416.jpg",
+    "header": "Singapore Flyer is an observation wheel at the Downtown Core district of Singapore.",
+    "description": "Officially opened on 15 April 2008, it has 28 air-conditioned capsules, each able to accommodate 28 passengers, and incorporates a three-story terminal building."
   },
   {
     "latitude": 1.283099,
     "longitude": 103.860295,
     "name": "Marina Bay Sands",
-    "description": "The Marina Bay Sands is one of two winning proposals for Singapore's first integrated resorts, the other being the Resorts World Sentosa, which incorporates a family-friendly Universal Studios Theme Park (Universal Studios Singapore)."
+    "image": "https://www.visitsingapore.com/content/dam/desktop/global/see-do-singapore/recreation-leisure/marina-bay-sands-carousel01-square.jpg",
+    "header": "Marina Bay Sands is one of two winning proposals for Singapore's first integrated resorts",
+    "description": "The other being the Resorts World Sentosa, which incorporates a family-friendly Universal Studios Theme Park (Universal Studios Singapore)."
   },
   {
     "latitude": 1.281790,
     "longitude": 103.863954,
     "name": "Gardens By The Bay",
-    "description": "The Gardens By The Bay is a nature park spanning 101 hectares (250 acres) in the Central Region of Singapore, adjacent to the Marina Reservoir. The park consists of three waterfront gardens: Bay South Garden (in Marina South), Bay East Garden (in Marina East) and Bay Central Garden (in Downtown Core and Kallang)"
+    "image": "https://www.visitsingapore.com/id_id/see-do-singapore/architecture/modern/gardens-by-the-bay/_jcr_content/par-carousel/carousel_detailpage/carousel/item0.thumbnail.carousel-img.740.416.jpg",
+    "header": "Gardens By The Bay is a nature park in the Central Region of Singapore.",
+    "description": "Adjacent to the Marina Reservoir. The park consists of three waterfront gardens: Bay South Garden (in Marina South), Bay East Garden (in Marina East) and Bay Central Garden (in Downtown Core and Kallang)"
   },
   {
     "latitude": 1.284193,
     "longitude": 103.843362,
     "name": "Chinatown",
-    "description": "The Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore. Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population."
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/57/c1/c2/img-4-largejpg.jpg",
+    "header": "Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore.",
+    "description": "Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population."
   }
 ]
