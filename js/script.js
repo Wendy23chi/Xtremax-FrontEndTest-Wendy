@@ -29,28 +29,59 @@ function initMap() {
     center: { lat: 1.28692, lng: 103.85457 },
   });
 
-  // addMarker({coords:{ lat: 1.286920, lng: 103.854570 }, content: 'Merlion'});
-  // addMarker({coords:{ lat: 1.287466, lng: 103.851424 }, content: 'Asian Civilisations Museum'});
-
   function addMarker(props) {
+    const latLng = new google.maps.LatLng(props.latitude, props.longitude);
+
+    const image = "img/About.png";
+
     const marker = new google.maps.Marker({
-      position: props.coords,
+      position: latLng,
       map: map,
+      label: props.name,
+      icon: {
+        url: image,
+        scaledSize: new google.maps.Size(100, 100),
+      },
     });
 
-    // Check Content
-    if (props.name) {
-      // The InfoWindow
-      const infoWindow = new google.maps.InfoWindow({
-        content: props.name,
-      });
+    marker.addListener("click", function () {
+      map.setZoom(17);
+      map.setCenter(latLng);
+      document.getElementById("side-title").innerHTML = props.name;
+      document.getElementById("side-desc").innerHTML = props.description;
+    });
 
-      marker.addListener("click", function () {
-        map.setZoom(17);
-        map.setCenter(props.coords);
-        infoWindow.open(map, marker);
+    marker.addListener("mouseover", function () {
+      marker.setIcon({
+        url: image,
+        scaledSize: new google.maps.Size(200, 200),
       });
-    }
+    });
+
+    marker.addListener("mouseout", function () {
+      marker.setIcon({
+        url: image,
+        scaledSize: new google.maps.Size(100, 100),
+      });
+    });
+
+    //   const markerLabel = new google.maps.MarkerLabel({
+    //     text: props.name,
+    //   });
+
+    // Check Content
+    // if (props.name) {
+    //   // The InfoWindow
+    //   //   const markerLabel = new google.maps.MarkerLabel({
+    //   //     text: props.name,
+    //   //   });
+    //   marker.addListener("click", function () {
+    //     map.setZoom(17);
+    //     map.setCenter(latLng);
+
+    //   });
+
+    // }
   }
 }
 

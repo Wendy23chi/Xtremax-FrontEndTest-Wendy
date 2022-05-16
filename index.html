@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top-Rated Tourist Attractions in Singapore</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.1.1-web/css/all.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <section id="page" class="page">
-        <header>
-            <div class="layout-header">
-                <h3 class="header-title">Top-Rated Tourist Attractions In Singapore</h1>
-                    <ul class="header-menu">
-                        <li><a href="#"><i class="fa-solid fa-gear fa-lg"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-circle-question fa-lg"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-circle-xmark fa-lg"></i></a></li>
-                    </ul>
+      <header>
+        <div class="layout-header">
+          <h3 class="header-title">
+            Top-Rated Tourist Attractions In Singapore
+          </h3>
+          <ul class="header-menu">
+            <li>
+              <a href="#"><i class="fa-solid fa-gear fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-circle-question fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-circle-xmark fa-lg"></i></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <nav>
+        <div class="layout-sidebar">
+          <div class="layout-sidebar-container">
+            <div class="layout-sidebar-menu">
+              <div class="layout-sidebar-items">
+                <a href="index.html" class="layout-sidebar-items-link">
+                  <img
+                    class="layout-sidebar-items-icon"
+                    src="img/Browse.png"
+                    alt="browse"
+                  />
+                  <p class="layout-sidebar-items-title">Browse</p>
+                </a>
+              </div>
+              <div class="layout-sidebar-items">
+                <a href="#" class="layout-sidebar-items-link">
+                  <img
+                    class="layout-sidebar-items-icon"
+                    src="img/Attraction.png"
+                    alt="attraction"
+                  />
+                  <p class="layout-sidebar-items-title">Suggest Attraction</p>
+                </a>
+              </div>
+              <div class="layout-sidebar-items">
+                <a href="#" class="layout-sidebar-items-link">
+                  <img
+                    class="layout-sidebar-items-icon"
+                    src="img/Video.png"
+                    alt="video"
+                  />
+                  <p class="layout-sidebar-items-title">Video</p>
+                </a>
+              </div>
+              <div class="layout-sidebar-items">
+                <a href="#" class="layout-sidebar-items-link">
+                  <img
+                    class="layout-sidebar-items-icon"
+                    src="img/Blog.png"
+                    alt="blog"
+                  />
+                  <p class="layout-sidebar-items-title">Blog</p>
+                </a>
+              </div>
+              <div class="layout-sidebar-items">
+                <a href="#" class="layout-sidebar-items-link">
+                  <img
+                    class="layout-sidebar-items-icon"
+                    src="img/About.png"
+                    alt="about"
+                  />
+                  <p class="layout-sidebar-items-title">About</p>
+                </a>
+              </div>
             </div>
-        </header>
-        <nav>
-            <div class="layout-sidebar">
-                <div class="layout-sidebar-container">
-                    <div class="layout-sidebar-menu">
-                        <div class="layout-sidebar-items">
-                            <a href="index.html" class="layout-sidebar-items-link">
-                                <img class="layout-sidebar-items-icon" src="img/Browse.png" alt="browse" />
-                                <p class="layout-sidebar-items-title">Browse</p>
-                            </a>
-                        </div>
-                        <div class="layout-sidebar-items">
-                            <a href="#" class="layout-sidebar-items-link">
-                                <img class="layout-sidebar-items-icon" src="img/Attraction.png" alt="attraction" />
-                                <p class="layout-sidebar-items-title">Suggest Attraction</p>
-                            </a>
-                        </div>
-                        <div class="layout-sidebar-items">
-                            <a href="#" class="layout-sidebar-items-link">
-                                <img class="layout-sidebar-items-icon" src="img/Video.png" alt="video" />
-                                <p class="layout-sidebar-items-title">Video</p>
-                            </a>
-                        </div>
-                        <div class="layout-sidebar-items">
-                            <a href="#" class="layout-sidebar-items-link">
-                                <img class="layout-sidebar-items-icon" src="img/Blog.png" alt="blog" />
-                                <p class="layout-sidebar-items-title">Blog</p>
-                            </a>
-                        </div>
-                        <div class="layout-sidebar-items">
-                            <a href="#" class="layout-sidebar-items-link">
-                                <img class="layout-sidebar-items-icon" src="img/About.png" alt="about" />
-                                <p class="layout-sidebar-items-title">About</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <main>
-            <div id="map"></div>
-        </main>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div id="map"></div>
+      </main>
+      <aside>
+        <div class="side">
+          <img src="" alt="" />
+          <h5 id="side-title" class="side-title"></h5>
+          <p id="side-desc" class="side-desc"></p>
+        </div>
+      </aside>
     </section>
 
     <!-- <nav>
@@ -119,10 +155,10 @@
     <div id="map"></div> -->
 
     <script src="js/script.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLnoDELmZMwBoicqfZwmOA6KV4s-P5_Y4&callback=initMap">
-        </script>
-
-</body>
-
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLnoDELmZMwBoicqfZwmOA6KV4s-P5_Y4&callback=initMap"
+    ></script>
+  </body>
 </html>
