@@ -105,10 +105,29 @@ h6 {
   text-align: center;
   width: 100%;
   padding: 16px;
+  height: 100px;
+}
+
+.layout-sidebar-items.active {
+  background-color: #72cdd2;
+}
+
+.layout-sidebar-items-icon.active {
+  color: white;
+}
+
+.layout-sidebar-items-title.active {
+  color: white;
+  font-weight: 500;
 }
 
 .layout-sidebar-items-icon {
   width: 30px;
+}
+
+.layout-sidebar-items-link,
+.layout-sidebar-stacked-link {
+  text-decoration: none;
 }
 
 .layout-sidebar-menu-stacked {
@@ -118,6 +137,7 @@ h6 {
   background-color: #282c37;
   z-index: 1;
   width: 250px;
+  padding: 0 14px;
 }
 
 .layout-sidebar-items-stacked {
@@ -125,7 +145,7 @@ h6 {
 }
 
 .layout-sidebar-items-title {
-  color: #9b9b9e;
+  color: #697c84;
 }
 
 .side {
@@ -138,12 +158,19 @@ h6 {
   right: 0;
   top: 100px;
   width: 250px;
-  bottom: 0;
+  height: calc(100vh - 100px);
+  background-color: #313541;
+}
+
+.side-image {
+  display: block;
+  width: 250px;
+  height: 172px;
 }
 
 .side-title {
   background-color: #72cdd2;
-  padding: 10px 16px;
+  padding: 10px 24px;
   font-size: 20px;
   color: white;
   font-family: "Myriadpro", sans-serif;
@@ -151,11 +178,19 @@ h6 {
 
 .side-desc-container {
   background-color: #313541;
-  padding: 16px;
+  padding: 16px 24px;
   color: #9b9b9e;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+.side-desc {
+  margin-bottom: 8px;
+}
+
+.side-footer a {
+  color: #9b9b9e;
 }
 
 .layout-sidebar-stacked {
@@ -163,6 +198,20 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
+}
+
+.layout-sidebar-stacked-filter {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  color: #697c84;
 }
 
 #map {

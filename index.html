@@ -38,14 +38,14 @@
         <div class="layout-sidebar">
           <div class="layout-sidebar-container">
             <div class="layout-sidebar-menu">
-              <div class="layout-sidebar-items">
+              <div class="layout-sidebar-items active">
                 <a href="index.html" class="layout-sidebar-items-link">
                   <img
-                    class="layout-sidebar-items-icon"
-                    src="img/Browse.png"
+                    class="layout-sidebar-items-icon active"
+                    src="img/Browse-white.png"
                     alt="browse"
                   />
-                  <p class="layout-sidebar-items-title">Browse</p>
+                  <p class="layout-sidebar-items-title active">Browse</p>
                 </a>
               </div>
               <div class="layout-sidebar-items">
@@ -94,7 +94,7 @@
       </nav>
 
       <div class="layout-sidebar-menu-stacked">
-        <div class="layout-sidebar-stacked">
+        <div class="layout-sidebar-stacked-filter">
           <a href="#" class="layout-sidebar-stacked-link">
             <p class="filter">Filter by favorite</p>
           </a>
@@ -150,18 +150,30 @@
 
       <main>
         <div id="map"></div>
-      </main>
-      <aside>
+
         <div id="side" class="side">
-          <img id="side-image" />
+          <img id="side-image" class="side-image" />
           <p id="side-title" class="side-title"></p>
           <div class="side-desc-container">
             <p id="side-desc-head" class="side-desc-head"></p>
             <br />
             <p id="side-desc" class="side-desc"></p>
+            <br />
+            <div class="side-footer">
+              <i class="fa-solid fa-location-dot" style="padding-right: 2px">
+              </i>
+              <p style="display: inline">10 Bayfront Avenue, Singapore</p>
+            </div>
+            <br />
+            <div class="side-footer">
+              <i class="fa-solid fa-earth-asia" style="padding-right: 2px"></i>
+              <a href="http://www.marinabaysand.com">
+                <p style="display: inline">http://www.marinabaysand.com</p>
+              </a>
+            </div>
           </div>
         </div>
-      </aside>
+      </main>
     </section>
 
     <script src="js/script.js"></script>
